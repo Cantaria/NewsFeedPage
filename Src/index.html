@@ -15,6 +15,12 @@
             <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(microsoft)" style="text-align: center">Microsoft</div>
             <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(dotnet)" style="text-align: center">.Net</div>
             <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(unity)" style="text-align: center">Unity</div>
+            <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(azure)" style="text-align: center">Azure</div>
+            <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(angular)" style="text-align: center">Angular</div>
+            <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(web)" style="text-align: center">Web</div>
+            <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(react)" style="text-align: center">React</div>
+            <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(newspaper)" style="text-align: center">Newspaper (German)</div>
+            <div class="buttonmargin btn btn-outline-primary" onclick="loadPageIntoFrame(atlassian)" style="text-align: center">Atlassian</div>
         </div>
     </div>
     <div class="row h-100">
@@ -29,6 +35,12 @@
     let microsoft = "./dev-feed.html";
     let unity = "./unity-feed.html";
     let dotnet = "./dotnet-feed.html";
+    let azure = "./azure-feed.html";
+    let angular = "./angular-feed.html";
+    let web = "./web-feed.html";
+    let react = "./react-feed.html";
+    let newspaper = "./newspapers-feed.html";
+    let atlassian = "./atlassian-feed.html";
 
     function loadPageIntoFrame(url) {
         document.getElementById("showFrame").src = url;
